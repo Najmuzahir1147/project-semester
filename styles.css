@@ -1,0 +1,37 @@
+.lbody {
+    background-color: #3c3633;
+    width: 40vh;
+    height: 60vh;
+    border-radius: 6px 0px 0px 6px;
+    margin-left: 50vh;
+    margin-top: 20vh;
+}
+.rbody {
+    background-color: #f7f6e7;
+    width: 40vh;
+    height: 60vh;
+    border-radius: 0px 6px 6px 0px;
+    margin-left: 90vh;
+    margin-top: -60vh;
+}
+.form {
+    width: 240px;
+    height: 30px;
+    border-color: #0000005e;
+    border-radius: 3px;
+    margin-left: 30px;
+}
+.title {
+    text-align: center;
+    font-size: 30px;
+    padding: 40px;
+}
+.submit {
+    border-radius: 7px;
+    margin-left: 125px;
+    margin-top: 20px;
+    border-color: #0000005e;
+}
+.registerbtn {
+    margin-left: 65px;
+}
