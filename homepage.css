@@ -1,0 +1,32 @@
+.headbod {
+    background-color: black;
+    width: 175vh;
+    height: 175vh;
+    margin-top: -8px;
+    margin-left: -8px;
+}
+#navbod {
+    background-color: white;
+    width: 175vh;
+    height: 90px;
+    overflow: hidden;
+    text-align: right;
+}
+#navbod a {
+    color: black;
+    text-align: right;
+    padding: 14px;
+   
+}
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+.sticky + .content {
+    padding-top: 60px;
+}
+img {
+    width: auto;
+    height: auto;
+}
