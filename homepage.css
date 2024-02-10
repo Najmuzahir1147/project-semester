@@ -1,22 +1,30 @@
 .headbod {
     background-color: black;
-    width: 175vh;
+    width: 188vh;
     height: 175vh;
     margin-top: -8px;
     margin-left: -8px;
 }
 #navbod {
     background-color: white;
-    width: 175vh;
-    height: 90px;
+    width: 188vh;
+    height: 73px;
     overflow: hidden;
     text-align: right;
-}
+
+  }
 #navbod a {
-    color: black;
+    color: #585858;
     text-align: right;
-    padding: 14px;
-   
+    padding-right: 30px;
+    padding-left: 1px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+}
+.menu {
+    margin-top: 19px;
+    margin-right: 70px;
 }
 .sticky {
     position: fixed;
@@ -29,4 +37,49 @@
 img {
     width: auto;
     height: auto;
+}
+.btn {
+    background-color: #04AA6D; /* Green */
+    border: none;
+    color: white;
+    padding: 10px 22px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 0px -20px 0px 0px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    font-family: 'Raleway', sans-serif;
+}
+.daftar {
+    background-color: white; 
+    color: black; 
+    border: 1px solid #04AA6D;
+}
+.daftar:hover {
+    background-color: #04AA6D;
+    color: white;
+}
+.masuk {
+    background-color: #04AA6D; 
+    color: black; 
+    border: 1px solid white;
+}
+.masuk:hover {
+    background-color: white;
+    color: #04AA6D;
+}
+.mainbg {
+    background-color: #343A40;
+    width: 188vh;
+    height: 50vh;
+    margin-top: -8px;
+    margin-left: -8px;
+}
+.cardbod {
+    background-color: white;
+    width: 20vh;
+    height: 20vh;
+    border-radius: 5px 5px 5px 5px;
 }
