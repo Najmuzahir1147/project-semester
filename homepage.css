@@ -1,22 +1,16 @@
-.headbod {
-    background-color: black;
-    width: 188vh;
-    height: 175vh;
-    margin-top: -8px;
-    margin-left: -8px;
-}
+/*Moving Navbar*/
 #navbod {
     background-color: white;
     width: 188vh;
-    height: 73px;
+    height: 12vh;
     overflow: hidden;
     text-align: right;
-
-  }
+    margin-left: -8px;
+}
 #navbod a {
     color: #585858;
     text-align: right;
-    padding-right: 30px;
+    padding-right: 40px;
     padding-left: 1px;
     font-family: 'Raleway', sans-serif;
     font-weight: bold;
@@ -38,8 +32,11 @@ img {
     width: auto;
     height: auto;
 }
+/*-----------------------------*/
+
+/*Button Navbar*/
 .btn {
-    background-color: #04AA6D; /* Green */
+    background-color: #FEC104; /* Green */
     border: none;
     color: white;
     padding: 10px 22px;
@@ -54,32 +51,90 @@ img {
 }
 .daftar {
     background-color: white; 
-    color: black; 
-    border: 1px solid #04AA6D;
+    color: #FEC104; 
+    border: 1px solid #FEC104;
 }
 .daftar:hover {
-    background-color: #04AA6D;
+    background-color: #FEC104;
     color: white;
 }
 .masuk {
-    background-color: #04AA6D; 
-    color: black; 
-    border: 1px solid white;
+    background-color: #FEC104; 
+    color: white; 
+    border: 1px solid #FEC104;
 }
 .masuk:hover {
     background-color: white;
-    color: #04AA6D;
+    color: #FEC104;
 }
-.mainbg {
-    background-color: #343A40;
+/*-----------------------------*/
+
+/*Homepage Quotes*/
+.image {
+    background-color: black;
     width: 188vh;
-    height: 50vh;
+    height: 120vh;
+    margin-top: -26vh;
+    margin-left: -8px;
+}
+.quotes {
+    font-family: classic;
+}
+.one {
+    color: white;
+    padding-left: 65vh;
+    padding-top: 30vh;
+    font-size: 80px;
+}
+.two {
+
+}
+/*-----------------------------*/
+
+/*Moving Card*/
+.mainbg {
+    background-color: #0A0A0Aff;
+    width: 188vh;
+    height: 47vh;
     margin-top: -8px;
     margin-left: -8px;
+    position: absolute;
 }
 .cardbod {
     background-color: white;
-    width: 20vh;
-    height: 20vh;
-    border-radius: 5px 5px 5px 5px;
+    width: 23vh;
+    height: 35vh;
+    border-radius: 10px 10px 10px 10px;
 }
+.cardimg1 {
+    width: 23vh;
+    height: auto;
+    border-radius: 10px 10px 0px 0px;
+}
+.cardcord {
+    margin: 33px 0px 0px 30px;
+}
+.cardname {
+    font-family: comic;
+    font-size: 12px;
+    margin: 10px 0px 0px 0px;
+    padding: 0px 0px 0px 13px;
+}
+.cardtext {
+    font-family: comic;
+    font-size: 11px;
+    margin: 10px 0px 0px 0px;
+    padding: 0px 0px 0px 13px;;
+}
+/*-----------------------------*/
+
+/*Custom Font*/
+@font-face {
+    font-family: comic;
+    src: url(font/regular.otf);
+}
+@font-face {
+    font-family: classic;
+    src: url(font/perfectlyamicable.ttf);
+}
+/*-----------------------------*/

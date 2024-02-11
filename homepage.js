@@ -1,3 +1,4 @@
+//StickyNavbar
 window.onscroll = function () {
   myFunction();
 };
@@ -10,3 +11,19 @@ function myFunction() {
     navbar.classList.remove("sticky");
   }
 }
+//TransparentNavbar
+document.addEventListener("DOMContentLoaded", function() {
+  window.addEventListener("scroll", function() {
+    var navbar = document.getElementById("navbod");
+    var text = document.querySelectorAll(".mycontent");
+    text.forEach(function(text) {
+      
+    });
+    if (window.scrollY > 0) {
+      navbar.style.backgroundColor = "white";
+      text.style.color = "white";
+    } else {
+      navbar.style.backgroundColor = "transparent";
+    }
+  });
+});
